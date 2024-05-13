@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+make pack -C ../2024csc-projects/project_3/
 cp ../2024csc-projects/project_3/109550014-109611087.zip .
 docker build -t csc2024-project3 -f csc2024-project3.Dockerfile .
 docker compose -f csc2024-project3-docker-compose.yml down
